@@ -268,6 +268,56 @@ section {
     font-weight: 600;
 }
 
+/* Founder Section */
+#founder {
+    background-color: #fcfdfc;
+}
+
+.founder-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+.founder-quote {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    line-height: 1.4;
+    font-family: 'Playfair Display', serif;
+}
+
+.founder-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.founder-title {
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.founder-img-card {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+    background: white;
+    padding: 15px;
+}
+
+.founder-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+}
+
 /* Services */
 .services-grid {
     display: grid;
